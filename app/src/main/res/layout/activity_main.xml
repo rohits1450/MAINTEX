@@ -1,0 +1,184 @@
+
+
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/pipeAge"
+                    android:hint="Pipe Age(years)"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/waterUsage"
+                    android:hint="Water Usage(Liters/day)"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/rainfall"
+                    android:hint="Rainfall(mm/month)"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/appliances"
+                    android:hint="Appliance Count (no. of units)"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/dailyUsage"
+                    android:hint="Daily Usage (hrs/day)"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/wiringAge"
+                    android:hint="Wiring Age(years)"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/gasAppliances"
+                    android:hint="Gas Appliances(count)"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/pipeCondition"
+                    android:hint="Pipe Condition (1-10)"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/devices"
+                    android:hint="Internet Devices(count)"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/householdSize"
+                    android:hint="Household Size(people)"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/recyclingScore"
+                    android:hint="Recycling Score(0-100)"
+                    android:inputType="number"
+                    android:minHeight="48dp"
+                    android:autofillHints="none"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#AAAAAA"
+                    android:background="@drawable/edittext_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Spinner
+                    android:id="@+id/speedPlanSpinner"
+                    android:minHeight="48dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/predictBtn"
+                    android:text="Predict Cost"
+                    android:minHeight="48dp"
+                    android:backgroundTint="@color/orange"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/resultText"
+                    android:text="Prediction will appear here"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Profile"
+                    android:backgroundTint="@color/orange"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
