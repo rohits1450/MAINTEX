@@ -79,12 +79,10 @@ Outperforms traditional utility apps by focusing on maintenance cost prediction 
 <p float="left">
   <img src="UTILITYCOSTPROOF/Screenshot_20250830_173936.png" width="250"/>
   <img src="UTILITYCOSTPROOF/Screenshot_20250831_005218.png" width="250"/>
-  <img src="UTILITYCOSTPROOF/Screenshot_20250830_173430.png" width="250"/>
-  <img src="UTILITYCOSTPROOF/Screenshot_20250830_195426.png" width="250"/>
-  <img src="UTILITYCOSTPROOF/Screenshot_20250830_195436.png" width="250"/>
-  <img src="UTILITYCOSTPROOF/Screenshot_20250830_210148.png" width="250"/>
-  <img src="UTILITYCOSTPROOF/Screenshot_20250831_093531.png" width="250"/>
-  <img src="UTILITYCOSTPROOF/Screenshot_20250831_093544.png" width="250"/>
-  <img src="UTILITYCOSTPROOF/Screenshot_20250901_222723.png" width="250"/>
+   <img src="UTILITYCOSTPROOF/Screenshot_20250831_093531.png" width="250"/>
+   <img src="UTILITYCOSTPROOF/Screenshot_20250831_093544.png" width="250"/>
+   <img src="UTILITYCOSTPROOF/Screenshot_20250901_222723.png" width="250"/>
   <img src="UTILITYCOSTPROOF/Screenshot_20250901_223845.png" width="250"/>
+  <img src="UTILITYCOSTPROOF/Screenshot_20250830_173430.png" width="250"/>
+  <img src="UTILITYCOSTPROOF/Screenshot_20250830_210148.png" width="250"/>
 </p>
