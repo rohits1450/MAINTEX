@@ -75,4 +75,4 @@ Outperforms traditional utility apps by focusing on maintenance cost prediction 
 
 📷 Screenshots
 ------------------------------------------------------------------------------------------------------------------------------------
-"D:\utility-cost-predictor\UTILITYCOSTPROOF\Screenshot_20250830_153720.png"
+D:\utility-cost-predictor\UTILITYCOSTPROOF\Screenshot_20250830_153720.png
